@@ -1,0 +1,9 @@
+<div>
+    <button (click)="authorToggle()">Author</button>
+    <button (click)="titleToggle()">Title</button>
+    <button (click)="worksToggle()">Works</button>
+</div>
+
+<app-author *ngIf="authorBool"></app-author>
+<app-title *ngIf="titleBool"></app-title>
+<app-works *ngIf="worksBool"></app-works>

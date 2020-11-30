@@ -1,0 +1,16 @@
+a{
+    margin: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: #E4FDE1;
+}
+
+nav{
+    background-color: #114B5F;
+    padding: 2em;
+}
+
